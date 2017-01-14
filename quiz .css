@@ -1,0 +1,150 @@
+body{
+    font-family: arial;
+    font-size: 20px;
+    line-height: 1.6em;
+    background:#f4f4f4;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    width: 70%;
+    margin: 20px auto;
+    overflow: auto;
+}
+
+.pull-left{float:left;}
+.pull-right{float: right;}
+
+header{
+    background: linear-gradient(to bottom, red 0%,red 80%,#000000 50%,red 50%,white 100%);
+    color: #ffffff;
+    padding: 5px 10px;
+    overflow: auto;
+    font-size: 16px;
+}
+
+footer{
+    background: linear-gradient(to bottom, white 1%,red 20%,#000000 0%,red 0%,red 100%);
+    color: white;
+    padding: 5px 10px;
+    overflow: auto;
+    font-size: 16px;
+}
+
+.questionform img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.questionform h3{
+    text-align: center;   
+}
+
+.questionform h5{
+    text-align: center;   
+}
+
+.questionform button{
+    width: 13%;
+    padding: 1% 1.9%;
+    font-size: 1.5em;
+    border-radius: 1%;
+    margin-top: 3.5%;
+    margin-bottom: 3%  
+}
+
+.start button{
+    width: 13%;
+    padding: 1% 1.9%;
+    font-size: 1.5em;
+    border-radius: 1%;
+    margin-top: 3.5%;
+    margin-bottom: 3%  
+}
+
+.questionform #submita{
+    margin-left: 35%;
+    margin-right: 3.6%
+}
+
+.questionform #submitb{
+    margin-right: 3.6%
+}
+
+#q2 #submita{
+    margin-left: 26.5%
+}
+
+#q4 #submita{
+    margin-left: 26.5%
+}
+
+#submit1{
+    width: 21.8%;
+    padding: 1% 1.9%;
+    font-size: 1.2em;
+    border-radius: 1%;
+    margin-top: 3.5%;
+    margin-bottom: 3%;
+    margin-left: 38.3%
+}
+
+.start h3{
+    text-align: center;
+}
+
+.questionform h5{
+        font-size: 0.6em;
+        margin-top: -10px
+}
+
+.start #submits{
+    margin-left: 43%;
+    margin-right: 3.6%
+}
+
+
+
+
+@media only screen and (max-width: 900px){
+    .container{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    
+    #submit1{
+        font-size: 0.8em
+    }
+}
+
+@media only screen and (max-width: 435px){
+    
+    #submit1{
+        font-size: 0.6em;
+        padding: 5px 0px;
+    }
+    .questionform h3{
+        font-size: 0.8em
+    }
+    .start h3{
+        font-size: 0.8em;
+    }
+    
+    .questionform h5{
+        font-size: 0.6em;
+        margin-top: -10px
+    }
+    
+    
+@media only screen and (max-width: 836px){
+    
+    .start button{
+        font-size: 0.2em;
+    }
+}
